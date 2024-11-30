@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoundActivity"
+    android:orientation="vertical"
+    android:background="#92B18F"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:padding="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            style="@style/linear">
+            <TextView
+                style="@style/textview"
+                android:text="@string/first_name1"/>
+
+            <EditText
+                android:id="@+id/firstName"
+                style="@style/textview"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/first_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear">
+            <TextView
+                style="@style/textview"
+                android:text="Last name :"/>
+
+            <EditText
+                android:id="@+id/LastName"
+                style="@style/textview"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Last Name" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/linear">
+            <TextView
+                style="@style/textview"
+                android:text="@string/new_password"/>
+
+            <EditText
+                android:id="@+id/Password1"
+                style="@style/textview"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="@string/new_password1"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/linear">
+            <TextView
+                style="@style/textview"
+                android:text="Again Password :"/>
+
+            <EditText
+                android:id="@+id/Password2"
+                style="@style/textview"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="retype password"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/linear">
+            <TextView
+                style="@style/textview"
+                android:text="@string/phone_number1"/>
+
+            <EditText
+                android:id="@+id/phone"
+                style="@style/textview"
+                android:ems="10"
+                android:inputType="phone"
+                android:autofillHints="+880"
+                android:hint="@string/phone_number"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/sing_up"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="I have already Account"
+                />
+            <TextView
+                android:id="@+id/login"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000DFF"
+                android:text="@string/log_in"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

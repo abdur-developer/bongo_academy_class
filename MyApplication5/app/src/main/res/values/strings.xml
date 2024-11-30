@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="to">to.....</string>
+    <string name="from">from......</string>
+    <string name="ok">OK</string>
+    <string name="heading">Enter A number For prime number</string>
+</resources>

@@ -1,0 +1,136 @@
+<resources>
+
+    <string name="app_name">রমজানের সময়সূচী</string>
+
+    <string name="devision"> বিভাগ</string>
+    <string name="tajbi"> তসবিহ</string>
+    <string name="doa">দোয়া</string>
+    <string name="hadis"> হাদিস</string>
+    <string name="allah_name_of_allah">আল্লাহ্‌র ৯৯টি নাম</string>
+    <string name="niyot">নামাজের নিয়ত</string>
+    <string name="sura">প্রয়োজনীয় সূরা</string>
+    <string name="rules_of_prayer"> নামাজের নিয়ম</string>
+    <string name="kalema"> কালেমা</string>
+    <string name="q_a"> ইফতারের রেসিপি</string>
+
+    <!--    jikir_list-->
+
+
+    <string name="jikir_1">সুব হা-নাল্লাহ </string>
+    <string name="jikir_2">আল-হামদুলিল্লাহ্‌ </string>
+    <string name="jikir_3">লা-ইলাহ ইল্লাল্লা-হ</string>
+    <string name="jikir_4">আল্লাহু আকবার</string>
+
+    <!--    all division name-->
+    <string name="dhaka">ঢাকা বিভাগ</string>
+    <string name="rangpur">রংপুর বিভাগ</string>
+    <string name="rajshahi">রাজশাহী বিভাগ</string>
+    <string name="chottagram">চট্টগ্রাম বিভাগ</string>
+    <string name="khulna">খুলনা বিভাগ</string>
+    <string name="sylhet">সিলেট বিভাগ</string>
+    <string name="barishal">বরিশাল বিভাগ</string>
+    <string name="moymonsingho">ময়মনসিংহ বিভাগ</string>
+
+    <!--    dhaka all distric-->
+    <string name="dhaka_dis">ঢাকা</string>
+    <string name="kishorgong">কিশোরগঞ্জ </string>
+    <string name="gajipur">গাজীপুর</string>
+    <string name="gopalgong">গোপালগঞ্জ</string>
+    <string name="tangail">টাঙ্গাইল</string>
+    <string name="norsingdi">নরসিংদী</string>
+    <string name="naraongonj">নারায়নগঞ্জ</string>
+    <string name="foridpur">ফরিদপুর</string>
+    <string name="madaripur">মাদারিপুর</string>
+    <string name="manikgonj">মানিকগঞ্জ</string>
+    <string name="munshigonj">মুন্সিগঞ্জ</string>
+    <string name="rajbari">রাজবাড়ী </string>
+    <string name="shoriyotpur">শরীয়তপুর</string>
+
+    <!--    rangpur all distric-->
+    <string name="rangpur_dis">রংপুর</string>
+    <string name="kuriggram">কুড়িগ্রাম </string>
+    <string name="lalmonirhat">লালমনিরহাট</string>
+    <string name="gaibanda">গাইবান্ধা</string>
+    <string name="dinajpur">দিনাজপুর</string>
+    <string name="panchagarh">পঞ্চগড়</string>
+    <string name="thakurgoun">ঠাকুরগাঁও</string>
+    <string name="nilfamari">নীলফামারী</string>
+
+    <!--    dhaka all distric-->
+    <string name="chattrogram_dis">চট্টগ্রাম</string>
+    <string name="cox_bazar">কক্সবাজার </string>
+    <string name="bandarban">বান্দরবন</string>
+    <string name="chadpur">চাঁদপুর</string>
+    <string name="brammonbariya">ব্রাহ্মণবাড়িয়া</string>
+    <string name="rangamati">রাঙ্গামাটি</string>
+    <string name="lokkhipur">লক্ষ্মীপুর</string>
+    <string name="noyakhali">নোয়াখালী</string>
+    <string name="feni">ফেনী</string>
+    <string name="khagrachory">খাগড়াছড়ি</string>
+    <string name="cumillah">কুমিল্লা </string>
+
+    <!--    rajshahi all distric-->
+    <string name="rajshahi_dis">রাজশাহী</string>
+    <string name="sirajgonj">সিরাজগঞ্জ </string>
+    <string name="pabna">পাবনা</string>
+    <string name="bogura">বগুড়া</string>
+    <string name="nator">নাটোর</string>
+    <string name="joypurhat">জয়পুরহাট</string>
+    <string name="chapainobabgonj">চাঁপাইনবাবগঞ্জ</string>
+    <string name="nouga">নওগাঁ</string>
+
+    <!--    khulna all distric-->
+    <string name="khulna_dis">খুলনা</string>
+    <string name="josor">যশোর </string>
+    <string name="satkhira">সাতক্ষীরা</string>
+    <string name="meherpur">মেহেরপুর</string>
+    <string name="norail">নড়াইল</string>
+    <string name="chuyadanga">চুয়াডাঙ্গা</string>
+    <string name="kustiya">কুষ্টিয়া</string>
+    <string name="magura">মাগুরা</string>
+    <string name="bagerhat">বাগেরহাট</string>
+    <string name="jinaidoho">ঝিনাইদ</string>
+
+    <!--    borishal all distric-->
+    <string name="borishal">বরিশাল</string>
+    <string name="jalkati">ঝালকাঠি </string>
+    <string name="ptuyakhali">পটুয়াখালী</string>
+    <string name="pirojpur">পিরোজপুর</string>
+    <string name="vola">ভোলা</string>
+    <string name="borguna">বরগুনা</string>
+
+    <!--    sylhet all distric-->
+    <string name="sylhet_dis">সিলেট</string>
+    <string name="moulovibazar">মৌলভীবাজার </string>
+    <string name="hobigonj">হবিগঞ্জ</string>
+    <string name="sunamgonj">সুনামগঞ্জ</string>
+
+    <!--    moymonsingho all distric-->
+    <string name="moymonsingh_dis">ময়মনসিংহ</string>
+    <string name="sherpur">শেরপুর </string>
+    <string name="jamalpur">জামালপুর</string>
+    <string name="netrokona">নেত্রকোণা</string>
+
+    <!-- doa name -->
+    <string name="doa_1">সেহরির দোয়া </string>
+    <string name="doa_2"> ইফতারের করার সময় যে দোয়া পড়বেন </string>
+    <string name="doa_3">আযান শোনার পরে পড়ার দোয়া</string>
+    <string name="doa_4">ওযুর শেষে পড়ার দোয়া</string>
+    <string name="doa_5">বংশধরদের জন্য দোয়া </string>
+    <string name="doa_6">নেক আমল কবুল হওয়ার দোয়া </string>
+    <string name="doa_7"> নেককার ও সাহীদগনের অন্তর্ভুক্ত হওয়ার জন্য বিশ্বাসী বান্দাগণের দোয়া</string>
+    <string name="doa_8">কোন শহরে হিজরত বা প্রবেশের দোয়া </string>
+    <string name="doa_9">দ্বীনের উপর অবিচল থাকার দোয়া </string>
+    <string name="doa_10"> মুসিবত আপতিত হলে পাঠ করার দোয়া</string>
+    <string name="doa_11">পিতা-মাতা, বংশধর ও মু’মিনীনদের জন্য হযরত ইব্রাহীম (আলাইহিসসালাম) এর দোয়া </string>
+    <string name="doa_12">ঈমানের নুরে পরিপূর্ণতা লাভের আশায় ঈমানদার বান্দাগণের প্রার্থনা </string>
+    <string name="doa_13">জাহান্নাম থেকে বাঁচার জন্য পরম করুণাময় আল্লাহর বান্দাগণের দোয়া </string>
+    <string name="doa_14">ক্ষমাপ্রার্থনার দোয়া </string>
+    <string name="doa_15"> মসজিদ থেকে বের হবার দোয়া </string>
+    <string name="doa_16">মসজিদে প্রবেশের দোয়া </string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+</resources>

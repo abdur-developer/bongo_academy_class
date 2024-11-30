@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#7C7FE6CE"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/chapainobabgonj"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:background="#052FAF"
+        android:gravity="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text="রহমতের ১০দিন "
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TableRow
+                    android:background="#052FAF"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="রমজান"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="তারিখ"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="সেহরির শেষ সময়"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ইফতারের সময় "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_1"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_01"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৪৫"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ১৭ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_2"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_02"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৪০"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২১ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_3"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_03"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৪৩"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২২  "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_4"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_04"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৪২"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২২ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_5"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_05"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৪৫"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৩"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_6"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_06"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩৯"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৩"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_7"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_07"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩৮"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২০ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_8"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_08"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩৭"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৪ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_9"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_09"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩৬"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৫ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_10"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_10"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩৫"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৫ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text="মাগফিরাতের ১০দিন "
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TableRow
+                    android:background="#052FAF"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:text="রমজান"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="তারিখ"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="সেহরির শেষ সময়"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ইফতারের সময় "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_11"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_11"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩৪"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৬ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_12"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_12"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩৩"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৬ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_13"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_13"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩২"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৭ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_14"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_14"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩৫"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৭ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_15"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_15"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ৩০"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৮"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_16"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_16"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২৯"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৮ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_17"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_17"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২৮"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৯ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_18"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_18"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২৭"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৯ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_19"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_19"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২৬"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ২৯ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_20"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_20"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২৫"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩০ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text="নাজাতের ১০দিন "
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TableRow
+                    android:background="#052FAF"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:text="@string/romjan"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="@string/date"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="@string/sehri"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text="@string/iftar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_21"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_21"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২৩"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩০"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_22"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_22"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২২"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩০"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_23"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_23"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২১"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩১"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_24"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_24"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ২০"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩১  "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_25"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_25"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ১৯"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩১"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_26"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_26"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ১৮"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩২ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_27"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_27"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ১৭"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩২ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_28"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_28"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ১৬"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩৩ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/row_color"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_29"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_29"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ১৫"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩৩ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/row_color_2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:text="@string/romjan_30"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/date_30"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_marginLeft="3sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="০৪ঃ১৪"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_marginLeft="3sp"
+                        android:text=" ০৬ঃ৩৪ "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"/>
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

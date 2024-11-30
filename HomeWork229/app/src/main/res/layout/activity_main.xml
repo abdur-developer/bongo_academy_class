@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            >
+            <EditText
+                android:id="@+id/ed_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                android:hint="Enter your name....."
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/ed_text"/>
+            <EditText
+                android:id="@+id/ed_num"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="numberDecimal"
+                android:hint="Enter number....."
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:maxLength="2"
+                android:background="@drawable/ed_text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/odd_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Odd Num"
+                    android:layout_margin="5dp"
+                    android:textAllCaps="false"
+                    />
+                <Button
+                    android:id="@+id/even_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Even Num"
+                    android:layout_margin="5dp"
+                    android:textAllCaps="false"/>
+                <Button
+                    android:id="@+id/all_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="All Num"
+                    android:layout_margin="5dp"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/num_font"
+                android:background="@drawable/btn"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolsbar"/>
+
+    </LinearLayout>
+
+    <!-- Image Slider  -->
+    <LinearLayout
+        android:id="@+id/layImageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="1000"
+            app:iss_placeholder="@drawable/ic_launcher_foreground"
+            app:iss_error_image="@drawable/ic_launcher_background"
+            app:iss_delay="0"/>
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_divition"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/devision"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+                    <Button
+                        android:id="@+id/btn_hadis"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/hadis"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+                    <Button
+                        android:id="@+id/btn_nama_of_allah"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/allah_name_of_allah"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+                    <Button
+                        android:id="@+id/btn_niyot"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/niyot"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+                    <Button
+                        android:id="@+id/btn_sura"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/sura"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/btn_tajbi"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/tajbi"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+                    <Button
+                        android:id="@+id/btn_doa"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/doa"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+                    <Button
+                        android:id="@+id/btn_kalema"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/kalema"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+                    <Button
+                        android:id="@+id/btn_rules_of_prayer"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/rules_of_prayer"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+                    <Button
+                        android:id="@+id/btn_q_a"
+                        android:layout_margin="5sp"
+                        android:padding="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="@string/q_a"
+                        android:textSize="25sp"
+                        android:background="@drawable/button_desing"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

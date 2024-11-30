@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Inflate</string>
+    <string name="bd">Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common. On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.</string>
+    <string name="id">India, officially the Republic of India, is a country in South Asia. It has been the second most populous country since at least 1950, with a current population of over 1.4 billion, and is expected to overtake China to become the most populous country by the end of April 2023</string>
+    <string name="layout_inflater">Layout Inflater!</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="india">India</string>
+</resources>

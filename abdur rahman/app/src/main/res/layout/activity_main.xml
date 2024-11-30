@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20sp">
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="বিসমিল্লাহির রাহমানির রাহিম"
+       android:gravity="center"
+       android:textSize="20sp"
+       android:background="#ffc300"/>
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text=" 'بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+      android:gravity="center"
+      android:textSize="20dp"
+      />
+
+   <TextView
+       android:id="@+id/tvcount"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="0"
+       android:textSize="100sp"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:textColor="#2962ff"/>
+
+   <Button
+       android:id="@+id/buttonAdd"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="15dp"
+       android:background="#64dd17"
+       android:text="add one"
+       android:textSize="25dp"
+       android:textStyle="bold" />
+
+   <Button
+       android:id="@+id/buttonSub"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="#ff5733"
+       android:text="sub one"
+       android:textSize="20dp" />
+
+   <Button
+      android:id="@+id/buttonReset"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="reset"
+       android:textSize="15sp"
+       />
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+      android:src="@drawable/taj"
+      android:layout_marginTop="45dp"/>
+
+</LinearLayout>

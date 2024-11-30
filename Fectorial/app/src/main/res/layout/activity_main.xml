@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="normal|italic"
+        style="@android:style/TextAppearance.Large"/>
+
+    <EditText
+        android:id="@+id/ed"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:hint="Enter a number"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:layout_marginTop="70dp"
+        android:maxLines="1"
+        android:maxLength="2"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:drawableStart="@android:drawable/star_on"/>
+
+    <View
+        android:id="@+id/btn"
+        android:layout_width="64dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/arrow_down_float"
+        android:backgroundTint="#4A43A8"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#000000"/>
+
+</LinearLayout>

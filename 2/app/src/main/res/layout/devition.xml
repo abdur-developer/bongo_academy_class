@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first_btn.devition"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="#29B6F6"
+        >
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/devision"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_icon"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_dhaka"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/dhaka"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_rangpur"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/rangpur"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_rajshahi"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/rajshahi"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_sylhet"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/sylhet"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_khulna"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/khulna"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_chattagram"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/chottagram"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_barishal"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/barishal"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_moymonshingho"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/moymonsingho"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

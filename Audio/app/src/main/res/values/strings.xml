@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Audio</string>
+    <string name="this_is_a_textview_head_title">This is a TextView Head Title</string>
+    <string name="describtion">this is a description this is a description this is a description this is a description</string>
+</resources>

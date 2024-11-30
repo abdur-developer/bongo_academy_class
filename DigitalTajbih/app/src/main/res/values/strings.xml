@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Digital Tajbih</string>
+    <string name="plus_one">Plus ONE</string>
+    <string name="jikie1">সুবহানাল্লাহ</string>
+    <string name="jikir2">আলহামদুলিল্লাহ</string>
+    <string name="jikir3">আল্লাহু আকবার</string>
+    <string name="company">Developer By: \tSiam Digital IT</string>
+    <string name="reset">Reset</string>
+    <string name="minus_one">Minus ONE</string>
+</resources>

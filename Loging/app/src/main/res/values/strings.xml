@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Loging</string>
+    <string name="password">. Password</string>
+    <string name="mobile">. Mobile</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_acoount">I have no account</string>
+    <string name="create_account">Create Account</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="heading">Loging Page</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number1">Phone Number :</string>
+    <string name="new_password">New Password :</string>
+    <string name="new_password1">New Password</string>
+    <string name="first_name">First Name</string>
+    <string name="first_name1">First name :</string>
+    <string name="sing_up">Sing Up</string>
+</resources>

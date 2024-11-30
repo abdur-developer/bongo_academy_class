@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".division.chattrogram_division"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="#29B6F6"
+        >
+
+        <ImageView
+            android:id="@+id/back_ctg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/chottagram"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/home_ctg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_icon"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="210sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_chattrogram_dis"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/chattrogram_dis"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_cox_bazar"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/cox_bazar"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_bandarban"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/bandarban"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_rangamati"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/rangamati"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_cumilla"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/cumillah"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_chadpur"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/chadpur"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_feni"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/feni"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+                <Button
+                    android:id="@+id/btn_lakkhipur"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/button_desing"
+                    android:padding="10sp"
+                    android:text="@string/lokkhipur"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_brammonbariya"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/brammonbariya"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_noyakhali"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/noyakhali"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_khagrachory"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/khagrachory"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".division.khulna_division"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="#29B6F6"
+        >
+
+        <ImageView
+            android:id="@+id/back_khul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/khulna"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/home_khul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_icon"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <!-- Image Slider  -->
+    <LinearLayout
+        android:id="@+id/layImageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="1000"
+            app:iss_placeholder="@drawable/ic_launcher_foreground"
+            app:iss_error_image="@drawable/ic_launcher_background"
+            app:iss_delay="0"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_khulna_dis"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/khulna_dis"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_josor"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/josor"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_satkhira"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/satkhira"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_meherpur"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/meherpur"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_norail"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/norail"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_chuyadanga"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/chuyadanga"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_kustiya"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/button_desing"
+                    android:padding="10sp"
+                    android:text="@string/kustiya"
+                    android:textSize="25sp" />
+                <Button
+                    android:id="@+id/btn_magura"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/magura"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_bagerhat"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/bagerhat"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_jinaidoho"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/jinaidoho"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

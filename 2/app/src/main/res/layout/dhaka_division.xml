@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".division.dhaka_division"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/common_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="#29B6F6"
+        >
+
+        <ImageView
+            android:id="@+id/back_dha_bivag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/dhaka"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/home_dha_bivag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_icon"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="280sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_dhaka_dis"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/dhaka_dis"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_kishorgong"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/kishorgong"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_gajipur"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/gajipur"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_gopalgong"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/sylhet"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_madaripur"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/madaripur"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_manikgong"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/manikgonj"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_munshigonj"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/munshigonj"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btn_tangail"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/tangail"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+                <Button
+                    android:id="@+id/btn_norsingdi"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/button_desing"
+                    android:padding="10sp"
+                    android:text="@string/norsingdi"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btn_naraongonj"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/naraongonj"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_foridpur"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/foridpur"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_rajbari"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/rajbari"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+                <Button
+                    android:id="@+id/btn_shoriyotpur"
+                    android:layout_margin="5sp"
+                    android:padding="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/shoriyotpur"
+                    android:textSize="25sp"
+                    android:background="@drawable/button_desing"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

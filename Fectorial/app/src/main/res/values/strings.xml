@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fectorial</string>
+    <string name="hint">Enter a number for Fectorial</string>
+</resources>
